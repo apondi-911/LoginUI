@@ -7,12 +7,13 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.textfield.TextInputEditText
 
 
 class MainActivity : AppCompatActivity() {
 
     private var username: EditText? = null
-    private var password: EditText? = null
+    private var password: TextInputEditText? = null
     private var loginButton: Button? = null
     private var signupText: TextView? =null
 
